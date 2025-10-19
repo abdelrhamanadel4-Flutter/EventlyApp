@@ -47,7 +47,18 @@
   "eating": "تناول الطعام",
   "all":"الجميع",
   "createevent":"انشاء حدث",
-  "local": "AR"
-
+  "local": "AR",
+   "title": "العنوان",
+    "eventtitle": "عنوان الحدث",
+    "eventdescription": "وصف الحدث",
+    "description": "الوصف",
+    "eventdate": "تاريخ الحدث",
+    "eventtime": "وقت الحدث",
+    "location": "الموقع",
+    "chooseeventlocation": "اختر موقع الحدث",
+    "addevent": "إضافة حدث",
+    "searchforevent": "البحث عن حدث",
+  "choosedate": "اختر التاريخ"
+  ,"choosetime": "اختر الوقت"
 
 }

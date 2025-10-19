@@ -1,36 +1,46 @@
-class AppAssets{
-  static String logo='assets/images/logo.png';
-  static String onborading1='assets/images/onborading-1.png';
-  static String onborading2='assets/images/onborading-2.png';
-  static String onborading3='assets/images/onborading-3.png';
-  static String buttomleft='assets/images/buttomleft.png';
-  static String buttomright='assets/images/buttom right.png';
-  static String onborading='assets/images/onborading.png';
-  static String Splash='assets/images/splash.png';
-  static String Email='assets/images/Email.png';
-  static String EYE='assets/images/EYE.png';
-  static String Password='assets/images/Password.png';
-  static String name='assets/images/name.png';
-  static String Logovertical='assets/images/Logovertical.png';
-  static String FORGET='assets/images/FORGET.png';
-  static String logoappbar='assets/images/logoappbar.png';
-  static String LR='assets/images/LR.png';
-  static String EG='assets/images/EG.png';
-  static String goggle='assets/images/goggle.png';
-  static String Mapunselcted='assets/images/Mapunselcted.png';
-  static String favunselcted='assets/images/favunselcted.png';
-  static String profileunselected='assets/images/profileunselected.png';
-  static String Homeunselected='assets/images/Homeunselected.png';
-  static String HomeFill ='assets/images/HomeFill.png';
-  static String MapFill ='assets/images/MapFILL.png';
-  static String favFill ='assets/images/favFill.png';
-  static String profileFill ='assets/images/profileFill.png';
-  static String Frame19 ='assets/images/Frame 19.png';
-  static String Serach ='assets/images/S1.png';
-  static String Bookclub ='assets/images/Book club.png';
+class AppAssets {
+  static String logo = 'assets/images/logo.png';
+  static String onborading1 = 'assets/images/onborading-1.png';
+  static String onborading2 = 'assets/images/onborading-2.png';
+  static String onborading3 = 'assets/images/onborading-3.png';
+  static String buttomleft = 'assets/images/buttomleft.png';
+  static String buttomright = 'assets/images/buttom right.png';
+  static String onborading = 'assets/images/onborading.png';
+  static String Splash = 'assets/images/splash.png';
+  static String Email = 'assets/images/Email.png';
+  static String EYE = 'assets/images/EYE.png';
+  static String Password = 'assets/images/Password.png';
+  static String name = 'assets/images/name.png';
+  static String Logovertical = 'assets/images/Logovertical.png';
+  static String FORGET = 'assets/images/FORGET.png';
+  static String logoappbar = 'assets/images/logoappbar.png';
+  static String LR = 'assets/images/LR.png';
+  static String EG = 'assets/images/EG.png';
+  static String goggle = 'assets/images/goggle.png';
+  static String Mapunselcted = 'assets/images/Mapunselcted.png';
+  static String favunselcted = 'assets/images/favunselcted.png';
+  static String profileunselected = 'assets/images/profileunselected.png';
+  static String Homeunselected = 'assets/images/Homeunselected.png';
+  static String HomeFill = 'assets/images/HomeFill.png';
+  static String MapFill = 'assets/images/MapFILL.png';
+  static String favFill = 'assets/images/favFill.png';
+  static String favselected = 'assets/images/favselected.png';
 
-
-
-
-
+  static String profileFill = 'assets/images/profileFill.png';
+  static String Frame19 = 'assets/images/Frame 19.png';
+  static String Serach = 'assets/images/S1.png';
+  static String Bookclub = 'assets/images/Book club.png';
+  static String titleicon = 'assets/images/title.png';
+  static String Calendaricon = 'assets/images/Calendar.png';
+  static String Clockicon = 'assets/images/Clock.png';
+  static String locationmap = 'assets/images/locationmap.png';
+  static String brithday = 'assets/images/birthday.png';
+  static String bookclub = 'assets/images/book_club.png';
+  static String workshop = 'assets/images/workshop.png';
+  static String sport = 'assets/images/Sport.png';
+  static String meeting = 'assets/images/meeting.png';
+  static String holiday = 'assets/images/holiday.png';
+  static String gaming = 'assets/images/gaming.png';
+  static String exhibition = 'assets/images/exhibition.png';
+  static String eating = 'assets/images/eating.png';
 }

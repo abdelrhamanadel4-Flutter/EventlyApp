@@ -397,6 +397,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'EN'**
   String get local;
+
+  /// No description provided for @title.
+  ///
+  /// In en, this message translates to:
+  /// **'Title'**
+  String get title;
+
+  /// No description provided for @eventtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Title'**
+  String get eventtitle;
+
+  /// No description provided for @eventdescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Description'**
+  String get eventdescription;
+
+  /// No description provided for @description.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get description;
+
+  /// No description provided for @eventdate.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Date'**
+  String get eventdate;
+
+  /// No description provided for @eventtime.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Time'**
+  String get eventtime;
+
+  /// No description provided for @location.
+  ///
+  /// In en, this message translates to:
+  /// **'Location'**
+  String get location;
+
+  /// No description provided for @chooseeventlocation.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Event Location'**
+  String get chooseeventlocation;
+
+  /// No description provided for @addevent.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Event'**
+  String get addevent;
+
+  /// No description provided for @searchforevent.
+  ///
+  /// In en, this message translates to:
+  /// **'Search for Event'**
+  String get searchforevent;
+
+  /// No description provided for @choosedate.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Date'**
+  String get choosedate;
+
+  /// No description provided for @choosetime.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Time'**
+  String get choosetime;
 }
 
 class _AppLocalizationsDelegate
