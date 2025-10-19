@@ -39,6 +39,16 @@ class FirebaseUltiless {
     var docSnapshot = await addCOlectionuserinfirestore().doc(uid).get();
     return docSnapshot.data();
   }
+  static Future<void> adduser(String uid, String name, String email) async {
+    await FirebaseFirestore.instance.collection('users').doc(uid).set({
+      'id': uid,
+      'name': name,
+      'email': email,
+      'createdAt': FieldValue.serverTimestamp(),
+    });
+  }
+
+
 
 
 }
