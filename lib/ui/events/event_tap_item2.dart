@@ -5,7 +5,9 @@ import 'package:flutter/material.dart';
 class EventTapItem2 extends StatelessWidget {
   final bool isSelected;
   String eventName;
-   EventTapItem2({super.key, required this.isSelected,required this.eventName });
+  IconData icon;
+
+  EventTapItem2({super.key, required this.isSelected,required this.eventName ,required this.icon});
 
   @override
   Widget build(BuildContext context) {
@@ -27,8 +29,15 @@ class EventTapItem2 extends StatelessWidget {
             color:  AppColors.primarycolor,width: 2
           )
       ),
-      child: Text(eventName,style:
-          isSelected? Theme.of(context).textTheme.titleLarge:Theme.of(context).textTheme.displaySmall,),
+      child: Row(
+        children: [
+          Icon(icon,color: isSelected? Theme.of(context).colorScheme.onSecondary:AppColors.primarycolor,),
+          SizedBox(width: width*0.02,),
+
+          Text(eventName,style:
+              isSelected? Theme.of(context).textTheme.titleLarge:Theme.of(context).textTheme.displaySmall,),
+        ],
+      ),
     );
   }
 }

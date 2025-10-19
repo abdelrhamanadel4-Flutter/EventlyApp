@@ -8,6 +8,7 @@ static ThemeData light_theme=ThemeData(
     focusColor: AppColors.whitecolor,
     canvasColor: AppColors.lightBlue,
     dividerColor: AppColors.lightBlue,
+    cardColor: AppColors.ramdi,
 
 
     colorScheme: ColorScheme(
@@ -54,6 +55,9 @@ foregroundColor: AppColors.primarycolor,
     centerTitle: true,
     titleTextStyle: AppStyles.medium20blue,
     surfaceTintColor: Colors.transparent,
+    iconTheme: IconThemeData(
+      color: AppColors.primarycolor
+    ),
   ),
   inputDecorationTheme:InputDecorationTheme(
     enabledBorder: OutlineInputBorder(
@@ -110,7 +114,10 @@ foregroundColor: AppColors.primarycolor,
       labelMedium:AppStyles.medium16lightblue,
     labelSmall: AppStyles.bold14blue,
       titleLarge: AppStyles.bold16white,
-      displaySmall: AppStyles.bold16bluenounderline
+      displaySmall: AppStyles.bold16bluenounderline,
+    bodyLarge: AppStyles.medium16ramdi,
+
+
 
 
 
@@ -124,6 +131,8 @@ static ThemeData dark_theme=ThemeData(
     focusColor: AppColors.offWhite,
     canvasColor: Colors.transparent,
     dividerColor: AppColors.primarycolor,
+    cardColor: AppColors.offWhite,
+
 
 
     colorScheme: ColorScheme(
@@ -169,7 +178,9 @@ static ThemeData dark_theme=ThemeData(
       centerTitle: true,
       surfaceTintColor: Colors.transparent,
       titleTextStyle: AppStyles.medium20blue,
-
+      iconTheme: IconThemeData(
+          color: AppColors.primarycolor
+      ),
     ),
     inputDecorationTheme:InputDecorationTheme(
       hintStyle: TextStyle(fontSize: 16,color: AppColors.offWhite),
@@ -225,13 +236,15 @@ textTheme: TextTheme(
   labelMedium:AppStyles.medium16offwhite,
     labelSmall: AppStyles.bold14darkblue,
   titleLarge: AppStyles.bold16darkblue,
-  displaySmall: AppStyles.bold16bluenounderline
+  displaySmall: AppStyles.bold16bluenounderline,
+  bodyLarge: AppStyles.medium16offwhite
 
 
 
 
 
 )
+
 
 );
 

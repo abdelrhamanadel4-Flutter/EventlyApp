@@ -48,6 +48,21 @@
   "eating": "Eating",
   "all": "All",
   "createevent": "Create Event",
-  "local": "EN"
+  "local": "EN",
+  "title":"Title",
+  "eventtitle":"Event Title",
+  "eventdescription":"Event Description",
+  "description":"Description",
+  "eventdate":"Event Date",
+  "eventtime":"Event Time",
+  "location":"Location",
+  "chooseeventlocation":"Choose Event Location",
+  "addevent":"Add Event",
+  "searchforevent":"Search for Event",
+  "choosedate":"Choose Date",
+  "choosetime":"Choose Time"
+
+
+
 
 }

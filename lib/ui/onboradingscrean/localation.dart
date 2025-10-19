@@ -9,6 +9,7 @@ import 'package:evently/ultiless/approutes.dart';
 import 'package:flutter/material.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class OnBoradingLocal extends StatefulWidget {
   OnBoradingLocal({super.key});
@@ -127,7 +128,9 @@ class _OnbBradingState extends State<OnBoradingLocal> {
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
                               FilledButton(
-                                onPressed: (){
+                                onPressed: () async{
+                                  final SharedPreferences prefs = await SharedPreferences.getInstance();
+                                   await prefs.setBool('local', true);
                                   Navigator.pushNamed(context, AppRoutes.onBorading);
                                 }, child: Text(AppLocalizations.of(context)!.letsStart,style:TextStyle(
                                 color: Colors.white,

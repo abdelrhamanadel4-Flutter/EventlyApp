@@ -5,6 +5,7 @@ import 'package:evently/ultiless/appassets.dart';
 import 'package:evently/ultiless/approutes.dart';
 import 'package:flutter/material.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnbBrading extends StatefulWidget {
@@ -146,12 +147,14 @@ class _OnbBradingState extends State<OnbBrading> {
                     ),),
 
                     InkWell(
-                      onTap: () {
+                      onTap: ()async {
                         final nextpage = controller.currentPage + 1;
                         if (nextpage < 3) {
                           controller.animateToPage(page: nextpage,duration:300 );
                         }
                         else{
+                              final SharedPreferences prefs = await SharedPreferences.getInstance();
+                                   await prefs.setBool('onBorading', true);
                           Navigator.pushNamed(context, AppRoutes.SignIn);
                         }
                       },

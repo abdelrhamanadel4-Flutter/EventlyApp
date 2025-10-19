@@ -9,11 +9,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:evently/main.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-void main() {
+void main()async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+             final bool showonBorading=  prefs.getBool('onBorading')??false;
+             final bool showLocal=  prefs.getBool('local')??false;
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget( MyApp());
+    await tester.pumpWidget( MyApp(showonBorading: showonBorading, showLocal: showLocal,));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
